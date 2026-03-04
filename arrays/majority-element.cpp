@@ -4,6 +4,7 @@ using namespace std;
 
 class solution {
     public:
+        // BOYER MOORE ALGORITHM
         int majorityElement(vector<int>& nums){
             int candidate = nums[0];
             int count = 1;
