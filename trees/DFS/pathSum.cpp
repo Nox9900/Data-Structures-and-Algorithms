@@ -28,3 +28,27 @@ private:
         return result;
     }
 };
+
+
+//optimal solution
+class Solution2 {
+public:
+int dfs(TreeNode* root, long long  currsum, int targetSum, unordered_map<long long,int>&mp){
+    if(!root) return 0;
+    int count=0;
+    currsum+=root->val;
+    if(mp.find(currsum-targetSum)!=mp.end()){
+        count+=mp[currsum-targetSum];
+    }
+    mp[currsum]++;
+    count+=dfs(root->left, currsum, targetSum, mp);
+    count+=dfs(root->right, currsum, targetSum, mp);
+    mp[currsum]--;
+    return count;
+}
+    int pathSum(TreeNode* root, int targetSum) {
+        unordered_map<long long,int>mp;
+        mp[0]=1;
+        return dfs(root, 0, targetSum, mp);
+    }
+};
