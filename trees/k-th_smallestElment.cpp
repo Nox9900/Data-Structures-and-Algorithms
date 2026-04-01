@@ -1,0 +1,55 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+class Solution {
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        vector<int> res;
+        inorder(root, res);
+        return res[k-1];
+
+    }
+    void inorder(TreeNode* root, vector<int>& res) {
+        if(!root) return;
+        inorder(root->left, res);
+        res.push_back(root->val);
+        inorder(root->right, res);
+    }
+};
+
+
+//optinal solution
+class Solution {
+public:
+    int inorder(TreeNode* root, int k){
+        stack<TreeNode*>st;
+        TreeNode* curr = root;
+        int ans = 0;
+        int cnt = 0;
+        while(curr != NULL || !st.empty()){
+            while(curr != NULL){
+                st.push(curr);
+                curr = curr->left;
+            }
+            curr = st.top();
+            st.pop();
+            cnt++;
+            if(cnt == k){
+                ans = curr->val;
+            }
+            curr = curr->right;
+        }
+        return ans;
+    }
+    int kthSmallest(TreeNode* root, int k) {
+        return inorder(root, k);
+    }
+};
