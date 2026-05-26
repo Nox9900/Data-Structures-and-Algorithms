@@ -1,7 +1,10 @@
+/*
+    MIN STACK
+    https://leetcode.com/problems/min-stack
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
-
-
 
 class MinStack {
 private:

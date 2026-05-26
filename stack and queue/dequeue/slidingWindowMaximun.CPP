@@ -1,3 +1,8 @@
+/*
+    MAX SLIDING WINDOW
+    https://leetcode.com/problems/sliding-window-maximum
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

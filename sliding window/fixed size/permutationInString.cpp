@@ -1,5 +1,9 @@
-#include<iostream>
-#include<vector>
+/*
+    PERMUTATION IN STRING
+    https://leetcode.com/problems/permutation-in-string
+*/
+
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

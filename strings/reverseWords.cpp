@@ -1,7 +1,9 @@
-#include<iostream>
-#include<vector>
-#include<sstream> // for the stringstream 
-#include<algorithm> // for the ">>" operator, and the reverse method 
+/*
+    REVERSE WORDS IN A STRING
+    https://leetcode.com/problems/reverse-words-in-a-string
+*/
+
+#include<bits/stdc++.h> 
 using namespace std;
 
 

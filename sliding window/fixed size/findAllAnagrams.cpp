@@ -1,5 +1,9 @@
-#include<iostream>
-#include<vector>
+/*
+    FIND ALL ANAGRAMS IN A STRING
+    https://leetcode.com/problems/find-all-anagrams-in-a-string
+*/
+
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

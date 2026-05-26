@@ -1,5 +1,10 @@
-#include<vector>
-#include<algorithm>
+/*
+    3 SUM
+    https://leetcode.com/problems/3Sum
+*/
+
+
+#include<bits/stdc++.h>
 using namespace std;
 
 

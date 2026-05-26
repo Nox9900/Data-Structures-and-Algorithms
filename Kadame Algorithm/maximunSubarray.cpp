@@ -1,3 +1,8 @@
+/*
+    MAXIMUN SUBARRAY
+    https://leetcode.com/problems/maximum-subarray
+*/
+
 #include<vector>
 using namespace std;
 

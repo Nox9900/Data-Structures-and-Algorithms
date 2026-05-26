@@ -1,3 +1,9 @@
+/*
+    MIN COST CLIMBING STAIRS
+    https://leetcode.com/problems/min-cost-climbing-stairs
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 

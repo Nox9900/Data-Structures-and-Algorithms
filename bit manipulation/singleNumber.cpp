@@ -1,5 +1,9 @@
-#include<vector>
-#include <unordered_map>
+/*
+    SINGLE NUMBER
+    https://leetcode.com/problems/single-number
+*/
+
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

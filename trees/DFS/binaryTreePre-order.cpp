@@ -1,3 +1,8 @@
+/*
+    BINARY TREE PRE-ORDER TRAVERSAL
+    https://leetcode.com/problems/binary-tree-preorder-traversal
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -32,6 +37,7 @@ public:
 };
 
 
+// RECURSIVE METHOD
 class Solution2 {
     public:
         vector<int> preorder(TreeNode* root) {

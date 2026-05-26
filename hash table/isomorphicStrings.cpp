@@ -1,3 +1,8 @@
+/*
+    ISOMORPHIC STRINGS
+    https://leetcode.com/problems/isomorphic-strings
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

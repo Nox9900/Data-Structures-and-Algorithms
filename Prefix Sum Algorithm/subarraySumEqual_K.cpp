@@ -1,5 +1,9 @@
-#include<vector>
-#include<unordered_map>
+/*
+    SUBARRAY SUM EQUALS K
+    https://leetcode.com/problems/subarray-sum-equals-k
+*/
+
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {

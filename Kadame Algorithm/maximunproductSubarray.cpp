@@ -1,3 +1,9 @@
+/*
+    MAXIMUN PRODUCT SUBARRAY
+    https://leetcode.com/problems/maximum-product-subarray
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

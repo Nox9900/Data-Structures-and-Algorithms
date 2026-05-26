@@ -1,3 +1,7 @@
+/*
+    LARGEST RECTANGLE IN HISTOGRAM
+    https://leetcode.com/problems/largest-rectangle-in-histogram
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
