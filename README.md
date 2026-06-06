@@ -16,7 +16,7 @@ The workspace is organized into folders based on algorithmic patterns and data s
 
 ## Contributing
 
-<span style="color:blue;">Feel free to add your own solutions, improve existing code, or reorganize the structure for clarity. Submit pull requests or create issues for discussion.</span>
+<span style='color:red;'>Feel free to add your own solutions, improve existing code, or reorganize the structure for clarity. Submit pull requests or create issues for discussion.</span>
 
 ---
 
