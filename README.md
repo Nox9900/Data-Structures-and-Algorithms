@@ -1,6 +1,6 @@
 # Data Structures and Algorithms (DSA) Practice Repository
 
-This repository contains a collection of C++ solutions to common data structures and algorithms problems from LEETCODE. The purpose of the project is to practice and demonstrate proficiency in solving coding challenges across multiple problem categories such as arrays, strings, dynamic programming, graphs, trees, and more.
+This repository contains a collection of C++ solutions to common data structures and algorithms problems i solved from LEETCODE. The purpose of the project is to practice and demonstrate proficiency in solving coding challenges across multiple problem categories such as arrays, strings, dynamic programming, graphs, trees, and more.
 
 ## Structure
 
