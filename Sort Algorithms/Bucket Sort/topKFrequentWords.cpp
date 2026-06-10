@@ -15,7 +15,7 @@ class Solution {
             }
 
             vector<pair<string, int>> q(ans.begin(), ans.end());
-            sort(q.begin(), q.end(), [](auto& a, auto& b) {
+            sort(q.begin(), q.end(), [](auto& a, auto& b) {  //lambda function
                 if(a.second == b.second) return a.first < b.first;
                 return a.second > b.second;
             });
