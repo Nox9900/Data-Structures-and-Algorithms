@@ -4,7 +4,7 @@
     https://leetcode.com/problems/invert-binary-tree/
 */
 
-* struct TreeNode {
+struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
