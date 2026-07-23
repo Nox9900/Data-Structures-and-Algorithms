@@ -37,3 +37,27 @@ private:
         return root;
     }
 };
+
+
+class Solution {
+public:
+    TreeNode* sorted(vector<int>&ans,int start,int end){
+
+        if(start>end) return nullptr;
+        
+        int mid= start+(end-start)/2;
+        TreeNode* root = new TreeNode (ans[mid]);
+        root->left=sorted(ans,start,mid-1);
+        root->right= sorted(ans,mid+1,end);
+
+        return root;
+    }
+    TreeNode* sortedListToBST(ListNode* head) {
+        vector<int>ans;
+          while(head){
+            ans.push_back(head->val);
+            head=head->next;
+        }
+        return sorted(ans,0,ans.size()-1);
+    }
+};
